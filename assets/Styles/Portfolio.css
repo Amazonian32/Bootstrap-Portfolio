@@ -1,0 +1,16 @@
+img {
+    width: 274px;
+    height: 200px;
+    background-size: cover;
+    width: 100%;
+}
+
+h5 {
+    position: relative;
+    bottom: 60px;
+    background-color: skyblue;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+body {
+    background-color: pink;
+}
+
+.container, header, footer {
+    background-color: grey;
+}
