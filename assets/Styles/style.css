@@ -5,3 +5,6 @@ body {
 .container, header, footer {
     background-color: grey;
 }
+h1, nav {
+    background-color: pink;
+}

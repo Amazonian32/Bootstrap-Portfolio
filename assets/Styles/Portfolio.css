@@ -1,13 +1,12 @@
 img {
-    width: 274px;
-    height: 200px;
+    height: 250px;
     background-size: cover;
     width: 100%;
 }
 
 h5 {
     position: relative;
-    bottom: 60px;
+    bottom: 70px;
     background-color: skyblue;
     width: 100%;
     padding: 10px;
