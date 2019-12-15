@@ -7,4 +7,5 @@ body {
 }
 h1, nav {
     background-color: pink;
+    text-align: center;
 }
