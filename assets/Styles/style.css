@@ -21,28 +21,31 @@ footer {
 }
 .container {
     width: 100%;
-    
+    margin: 0 auto;
+    clear: both;
 }
 h1 {
     background-color: #403236;
     text-align: center;
     color: #A4A6A5;
-    height: 48px;
+    height: 100%;
+    margin: auto;
 }
 nav, nav a, .nav-link.active {
     color: #262323;
     position: relative;
+    display: inline;
+
 }
-nav a {
-    /* display: inline-block; */
-}
+
 #main-container {
     background-color: #A4A6A5;
+    width: 100%;
     max-width: 960px;
+    margin: 0 auto;
+    clear: both;
 }
-h1 {
-    margin: auto;
-}
+
 #page-content {
     flex: 1 0 auto;
   }
@@ -56,6 +59,11 @@ h1 {
 
 
 @media screen and (max-width: 980px) {
+    #main-conatiner.container {
+        margin: auto;
+        width: auto;
+      }
+    
     
 }
 @media screen and (max-width: 768px) {

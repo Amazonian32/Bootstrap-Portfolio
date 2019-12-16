@@ -1,12 +1,22 @@
-img {
-    height: 250px;
+#work {
+    /* position: relative; */
+    /* float: left; */
+    width: 325px;
+    height: 240px;
+    margin: 20px;
+}
+
+
+
+#work img {
+    height: 100%;
     background-size: cover;
     width: 100%;
     min-width: 100%;
     position: relative;
 }
 
-h5 {
+#work h5 {
     position: relative;
     bottom: 70px;
     background-color: #8C3E44;
