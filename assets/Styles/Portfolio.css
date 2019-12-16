@@ -3,7 +3,7 @@ img {
     background-size: cover;
     width: 100%;
     min-width: 100%;
-    
+    position: relative;
 }
 
 h5 {
