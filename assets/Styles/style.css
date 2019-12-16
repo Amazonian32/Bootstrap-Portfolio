@@ -41,7 +41,6 @@ nav, nav a, .nav-link.active {
 #main-container {
     background-color: #A4A6A5;
     width: 100%;
-    max-width: 960px;
     margin: 0 auto;
     clear: both;
 }
@@ -59,11 +58,7 @@ nav, nav a, .nav-link.active {
 
 
 @media screen and (max-width: 980px) {
-    #main-conatiner.container {
-        margin: auto;
-        width: auto;
-      }
-    
+   
     
 }
 @media screen and (max-width: 768px) {
