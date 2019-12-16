@@ -1,13 +1,17 @@
 body {
-    background-color: pink;
+    background-color: #51232D;
 }
 
 .container, header, footer {
-    background-color: grey;
+    background-color: #8C3E44;
 }
 h1, nav {
-    background-color: burlywood;
+    background-color: #403236;
     text-align: center;
+    color: #A4A6A5;
+}
+#main-container {
+    background-color: #A4A6A5;
 }
 input[type=text],
 input[type=email],
@@ -29,15 +33,15 @@ textarea {
 
 
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     
 }
 @media screen and (max-width: 768px) {
   
 }
 @media screen and (max-width: 640px) {
-  header {
+  /* header {
     position: static;
   }
   
-}
+} */ 
