@@ -23,11 +23,18 @@ footer {
     width: 100%;
     
 }
-h1, nav {
+h1 {
     background-color: #403236;
     text-align: center;
     color: #A4A6A5;
     height: 48px;
+}
+nav, nav a, .nav-link.active {
+    color: #262323;
+    position: relative;
+}
+nav a {
+    /* display: inline-block; */
 }
 #main-container {
     background-color: #A4A6A5;
