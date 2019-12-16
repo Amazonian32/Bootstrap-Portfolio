@@ -1,47 +1,60 @@
-body {
+/* COLORS AND STYLES*/
+body, html {
     background-color: #51232D;
+    color: #262323;
+    font-family: 'Arimo', sans-serif;
+    height: 100%;
 }
 
-.container, header, footer {
+header {
     background-color: #8C3E44;
+}
+footer {
+    background-color: #262323;
+    color: white;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    
 }
 h1, nav {
     background-color: #403236;
     text-align: center;
     color: #A4A6A5;
+    height: 48px;
 }
 #main-container {
     background-color: #A4A6A5;
+    max-width: 960px;
+    
 }
-input[type=text],
-input[type=email],
-textarea {
-    display: block;
-    width: 100%;
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-    margin-bottom: 20px;
+h1 {
+    margin: auto;
 }
-textarea {
-    height: 200px;
-    width: 100%;
-}
+#page-content {
+    flex: 1 0 auto;
+  }
+#sticky-footer {
+    flex-shrink: none;
+  }
 
 
 
 
 
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     
 }
 @media screen and (max-width: 768px) {
+
   
 }
 @media screen and (max-width: 640px) {
   /* header {
     position: static;
-  }
+  } */
   
-} */ 
+} 
