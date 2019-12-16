@@ -4,6 +4,7 @@ body, html {
     color: #262323;
     font-family: 'Arimo', sans-serif;
     height: 100%;
+    margin:auto 5px;
 }
 * {
     box-sizing: border-box;
@@ -44,7 +45,6 @@ nav, nav a, .nav-link.active {
     background-color: #A4A6A5;
     opacity: 0.8;
     width: auto;
-    margin: 20px;
     clear: both;
 }
 
