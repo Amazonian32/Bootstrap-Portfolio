@@ -9,7 +9,7 @@
 #work img {
     height: 100%;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     min-width: 100%;
     position: relative;
 }
@@ -25,10 +25,17 @@
 }
 
 @media screen and (max-width: 980px) {
+    #work {
+        width: 250px;
+        height: 200px;
+    }
     
 }
 @media screen and (max-width: 768px) {
-
+    #work {
+        width: 200px;
+        height: 150px;
+    }
   
 }
 @media screen and (max-width: 640px) {

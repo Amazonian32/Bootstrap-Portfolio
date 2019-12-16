@@ -20,7 +20,7 @@ footer {
     text-align: center;
 }
 .container {
-    max-width: 980px;
+    max-width: 960px;
     width: 100%;
     margin: 0 auto;
     clear: both;
@@ -30,19 +30,21 @@ h1 {
     text-align: center;
     color: #A4A6A5;
     height: 100%;
-    margin: auto;
+    padding: 10px 5px;
+    font-size: 2em;
 }
 nav, nav a, .nav-link.active {
     color: #262323;
     position: relative;
     display: inline;
-
+    text-align: center;
 }
 
 #main-container {
     background-color: #A4A6A5;
+    opacity: 0.8;
     width: auto;
-    margin: 0 auto;
+    margin: 20px;
     clear: both;
 }
 
@@ -52,10 +54,6 @@ nav, nav a, .nav-link.active {
 #sticky-footer {
     flex-shrink: none;
   }
-
-
-
-
 
 
 @media screen and (max-width: 980px) {
