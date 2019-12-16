@@ -20,6 +20,7 @@ footer {
     text-align: center;
 }
 .container {
+    max-width: 980px;
     width: 100%;
     margin: 0 auto;
     clear: both;
@@ -40,7 +41,7 @@ nav, nav a, .nav-link.active {
 
 #main-container {
     background-color: #A4A6A5;
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     clear: both;
 }
